@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project outputprefix="test">
+
+	<!--  Project description -->
+	<name>Lightsout</name>
+	<author>Erik Kelemen</author>
+	<authoremail>xkelem01@stud.fit.vutbr.cz</authoremail>
+	<revision>1</revision>
+	<description>Lightsout game</description>
+
+	<!--  MCU part -->
+	<mcu>
+	    <file>main.c</file>
+	</mcu>
+
+	<!-- FPGA part -->
+	<fpga architecture="pc" dcmfrequency="25MHz">
+        <include>fpga/ctrls/vga/package.xml</include>
+	<include>fpga/ctrls/keyboard/package.xml</include>
+
+	    <file>bcd.vhd</file>
+	    <file>cell.vhd</file>
+	    <file>engen.vhd</file>
+	    <file>char_rom.vhd</file>
+	    <file>keyboard_ctrl.vhd</file>
+	    <file>lightsout_pack.vhd</file>
+
+	    <file>top.vhd</file>
+	</fpga>
+
+</project>
