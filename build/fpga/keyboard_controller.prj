@@ -1,0 +1,2 @@
+vhdl work "../../../../../fpga/ctrls/keyboard/keyboard_ctrl.vhd"
+vhdl work "../../fpga/keyboard_ctrl.vhd"

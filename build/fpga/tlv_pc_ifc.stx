@@ -1,0 +1,63 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Fitkit/svn/apps/demo/vga1/build/fpga/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.25 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Fitkit/svn/apps/demo/vga1/build/fpga/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.26 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Fitkit/svn/fpga/ctrls/keyboard/keyboard_ctrl.vhd" in Library work.
+Entity <keyboard_controller> compiled.
+Entity <keyboard_controller> (Architecture <arch_keyboard>) compiled.
+Compiling vhdl file "C:/Users/Fitkit/svn/apps/demo/vga1/fpga/lightsout_pack.vhd" in Library work.
+Package <lightsout_pack> compiled.
+Package body <lightsout_pack> compiled.
+Compiling vhdl file "C:/Users/Fitkit/svn/fpga/ctrls/vga/vga_config.vhd" in Library work.
+Package <vga_controller_cfg> compiled.
+Package body <vga_controller_cfg> compiled.
+Compiling vhdl file "C:/Users/Fitkit/svn/fpga/chips/architecture_pc/tlv_pc_ifc.vhd" in Library work.
+Entity <tlv_pc_ifc> compiled.
+Compiling vhdl file "C:/Users/Fitkit/svn/apps/demo/vga1/fpga/engen.vhd" in Library work.
+Entity <engen> compiled.
+Entity <engen> (Architecture <main>) compiled.
+Compiling vhdl file "C:/Users/Fitkit/svn/fpga/ctrls/vga/vga_ctrl.vhd" in Library work.
+Entity <vga_controller> compiled.
+Entity <vga_controller> (Architecture <arch_vga_controller>) compiled.
+Compiling vhdl file "C:/Users/Fitkit/svn/apps/demo/vga1/fpga/bcd.vhd" in Library work.
+Entity <cnt_decimal> compiled.
+Entity <cnt_decimal> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/Fitkit/svn/apps/demo/vga1/fpga/cell.vhd" in Library work.
+Entity <cell> compiled.
+Entity <cell> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/Fitkit/svn/fpga/ctrls/keyboard/keyboard_ctrl_high.vhd" in Library work.
+Entity <keyboard_controller_high> compiled.
+Entity <keyboard_controller_high> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Fitkit/svn/apps/demo/vga1/fpga/char_rom.vhd" in Library work.
+Entity <char_rom> compiled.
+Entity <char_rom> (Architecture <behv>) compiled.
+Compiling vhdl file "C:/Users/Fitkit/svn/apps/demo/vga1/fpga/top.vhd" in Library work.
+Entity <tlv_pc_ifc> (Architecture <main>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.09 secs
+ 
+--> 
+
+Total memory usage is 168640 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

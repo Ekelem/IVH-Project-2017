@@ -1,0 +1,7 @@
+INFILE=C:\Users\Fitkit\svn\apps\demo\vga1\build\fpga\test.par.ncd
+OUTFILE=C:\Users\Fitkit\svn\apps\demo\vga1\build\test.bit
+FAMILY=Spartan3
+PART=xc3s50-4pq208
+WORKINGDIR=C:\Users\Fitkit\svn\apps\demo\vga1\build
+LICENSE=WebPack
+USER_INFO=211311058_0_0_636

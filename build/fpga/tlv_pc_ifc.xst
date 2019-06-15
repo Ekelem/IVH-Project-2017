@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Fitkit/svn/apps/demo/vga1/build/fpga/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Fitkit/svn/apps/demo/vga1/build/fpga/xst"
+elaborate
+-ifn tlv_pc_ifc.prj
+-ifmt mixed

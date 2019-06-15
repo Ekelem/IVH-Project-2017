@@ -1,0 +1,39 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Fitkit/svn/apps/demo/vga1/build/fpga/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Fitkit/svn/apps/demo/vga1/build/fpga/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/keyboard_controller/arch_keyboard is now defined in a different file.  It was defined in "C:/Users/Fitkit/svn/fpga/ctrls/keyboard/keyboard_ctrl.vhd", and is now defined in "C:/Users/Fitkit/svn/apps/demo/vga1/fpga/keyboard_ctrl.vhd".
+WARNING:HDLParsers:3607 - Unit work/keyboard_controller is now defined in a different file.  It was defined in "C:/Users/Fitkit/svn/apps/demo/vga1/fpga/keyboard_ctrl.vhd", and is now defined in "C:/Users/Fitkit/svn/fpga/ctrls/keyboard/keyboard_ctrl.vhd".
+WARNING:HDLParsers:3607 - Unit work/keyboard_controller/arch_keyboard is now defined in a different file.  It was defined in "C:/Users/Fitkit/svn/apps/demo/vga1/fpga/keyboard_ctrl.vhd", and is now defined in "C:/Users/Fitkit/svn/fpga/ctrls/keyboard/keyboard_ctrl.vhd".
+Compiling vhdl file "C:/Users/Fitkit/svn/apps/demo/vga1/fpga/keyboard_ctrl.vhd" in Library work.
+Architecture arch_keyboard of Entity keyboard_controller is up to date.
+Compiling vhdl file "C:/Users/Fitkit/svn/fpga/ctrls/keyboard/keyboard_ctrl.vhd" in Library work.
+Architecture arch_keyboard of Entity keyboard_controller is up to date.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.41 secs
+ 
+--> 
+
+Total memory usage is 166272 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    4 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
